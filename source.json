@@ -10,7 +10,18 @@
       "localizedDescription": "Conti, budget e spese condivise in un'unica app. Anche senza connessione. Tieni la rotta dei tuoi soldi.",
       "iconURL": "https://raw.githubusercontent.com/Marchisceddu/timonia-releases/main/icon.png",
       "tintColor": "#0A84FF",
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "0.1.0",
+          "date": "2026-10-29",
+          "size": 25932824,
+          "sha256": "570afa03f0f2796e81c0116511100ff86ad582bc5dcd453ce330d1e8c24c8c80",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.1.0/Timonia.ipa",
+          "localizedDescription": "Rilascio versione 0.1.0"
+        }
+      ]
     }
   ],
   "news": []
