@@ -31,6 +31,15 @@ if [ "$(printf '%s\n%s\n' "$LATEST" "$VERSION" | sort -V | tail -n1)" != "$VERSI
   exit 1
 fi
 
+# SideStore confronta buildVersion con il numero di build dentro l'.ipa (CFBundleVersion).
+PLIST="Payload/Timonia.app/Info.plist"
+BUILD="$(unzip -p "$IPA" "$PLIST" | plutil -extract CFBundleVersion raw -o - -)"
+IPA_VERSION="$(unzip -p "$IPA" "$PLIST" | plutil -extract CFBundleShortVersionString raw -o - -)"
+if [ "$IPA_VERSION" != "$VERSION" ]; then
+  echo "L'IPA contiene la versione $IPA_VERSION, non $VERSION." >&2
+  exit 1
+fi
+
 SIZE="$(stat -f%z "$IPA" 2>/dev/null || stat -c%s "$IPA")"
 SHA="$(shasum -a 256 "$IPA" | cut -d' ' -f1)"
 URL="https://github.com/$REPO/releases/download/v$VERSION/Timonia.ipa"
