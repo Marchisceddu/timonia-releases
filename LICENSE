@@ -1,0 +1,57 @@
+Timonia — Binary Distribution License
+
+Copyright (c) 2026 Marco Pilia. All rights reserved.
+
+This license applies to the Timonia application package ("the Software"),
+distributed as compiled binaries (.ipa files) attached to the releases of this
+repository, and to the files in this repository (source.json, icon.png, and
+documentation). The source code of Timonia is not part of this repository and
+is not licensed under these terms.
+
+1. GRANT
+   You are granted a personal, non-exclusive, non-transferable, revocable
+   license to download, install and use the Software on devices you own or
+   control, for personal and non-commercial purposes only.
+
+2. RESTRICTIONS
+   You may not, and may not allow others to:
+   a. copy, redistribute, sublicense, sell, rent, lend or otherwise make the
+      Software available to third parties, other than through the official
+      source of this repository;
+   b. decompile, disassemble, reverse engineer or attempt to derive the source
+      code of the Software, except to the extent that applicable law expressly
+      permits it despite this restriction;
+   c. modify the Software or create derivative works based on it;
+   d. remove or alter any copyright, trademark or other proprietary notice;
+   e. use the name "Timonia", its icon or its branding in a way that suggests
+      endorsement or affiliation.
+
+3. THIRD-PARTY COMPONENTS
+   The Software includes third-party open source components, each governed by
+   its own license. Their notices are available inside the application. Nothing
+   in this license limits your rights under those licenses.
+
+4. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THE SOFTWARE IS A
+   PERSONAL FINANCE TOOL AND DOES NOT PROVIDE FINANCIAL, LEGAL OR TAX ADVICE.
+
+5. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHOR BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR ITS USE. NOTHING IN THIS LICENSE EXCLUDES LIABILITY THAT CANNOT
+   BE EXCLUDED UNDER APPLICABLE LAW.
+
+6. TERMINATION
+   This license terminates automatically if you breach any of its terms. Upon
+   termination you must stop using the Software and delete all copies.
+
+7. GOVERNING LAW
+   This license is governed by the laws of Italy. Mandatory consumer
+   protection rules of your country of residence remain unaffected.
+
+8. TRADEMARKS AND PLATFORMS
+   Apple, iOS, iPhone, SideStore and AltStore are trademarks of their
+   respective owners. This project is not affiliated with or endorsed by them.

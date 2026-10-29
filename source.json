@@ -1,0 +1,17 @@
+{
+  "name": "Timonia Releases",
+  "identifier": "app.timonia.mobile.source",
+  "apps": [
+    {
+      "name": "Timonia",
+      "bundleIdentifier": "app.timonia.mobile",
+      "developerName": "Marco Pilia",
+      "subtitle": "Tutti i tuoi conti, in rotta.",
+      "localizedDescription": "Conti, budget e spese condivise in un'unica app. Anche senza connessione. Tieni la rotta dei tuoi soldi.",
+      "iconURL": "https://raw.githubusercontent.com/Marchisceddu/timonia-releases/main/icon.png",
+      "tintColor": "#0A84FF",
+      "versions": []
+    }
+  ],
+  "news": []
+}
