@@ -7,8 +7,17 @@ set -euo pipefail
 REPO="Marchisceddu/timonia-releases"
 VERSION="${1:?Uso: scripts/release.sh <versione> [percorso-ipa] [note]}"
 IPA="${2:-$HOME/Timonia-ipa/Timonia.ipa}"
-NOTES="${3:-Rilascio versione $VERSION}"
 MIN_IOS="16.0"
+
+# Sotto la 1.0.0 la release è una beta: note predefinite con "beta" e Release segnata come pre-release.
+PRERELEASE=()
+DEFAULT_NOTES="Rilascio versione $VERSION"
+if [ "${VERSION%%.*}" -lt 1 ]; then
+  PRERELEASE=(--prerelease)
+  DEFAULT_NOTES="$DEFAULT_NOTES beta"
+fi
+NOTES="${3:-$DEFAULT_NOTES}"
+
 
 cd "$(dirname "$0")/.."
 
