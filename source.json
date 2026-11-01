@@ -1,38 +1,28 @@
 {
-  "name": "Timonia Releases",
-  "identifier": "app.timonia.mobile.source",
-  "apps": [
-    {
-      "name": "Timonia",
-      "bundleIdentifier": "app.timonia.mobile",
-      "developerName": "Marco Pilia",
-      "subtitle": "Tutti i tuoi conti, in rotta.",
-      "localizedDescription": "Conti, budget e spese condivise in un'unica app. Anche senza connessione. Tieni la rotta dei tuoi soldi.",
-      "iconURL": "https://raw.githubusercontent.com/Marchisceddu/timonia-releases/main/icon.png",
-      "tintColor": "#0A84FF",
-      "versions": [
+    "name": "Timonia Releases",
+    "identifier": "app.timonia.mobile.source",
+    "apps": [
         {
-          "version": "0.1.1",
-          "buildVersion": "1",
-          "date": "2026-11-01",
-          "size": 30618041,
-          "sha256": "9f97b7419e3c82294d70e62f95a61326fa414e54df82aa8e9fc10b075ca51acd",
-          "minOSVersion": "16.0",
-          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.1.1/Timonia.ipa",
-          "localizedDescription": "v0.1.1 — Introduced a new app logo, visual animations, starting balance editing support, and various bug fixes."
-        },
-        {
-          "version": "0.1.0",
-          "buildVersion": "1",
-          "date": "2026-10-29",
-          "size": 25932824,
-          "sha256": "570afa03f0f2796e81c0116511100ff86ad582bc5dcd453ce330d1e8c24c8c80",
-          "minOSVersion": "16.0",
-          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.1.0/Timonia.ipa",
-          "localizedDescription": "Rilascio versione 0.1.0 beta"
+            "name": "Timonia",
+            "bundleIdentifier": "app.timonia.mobile",
+            "developerName": "Marco Pilia",
+            "subtitle": "Tutti i tuoi conti, in rotta.",
+            "localizedDescription": "Conti, budget e spese condivise in un'unica app. Anche senza connessione. Tieni la rotta dei tuoi soldi.",
+            "iconURL": "https://raw.githubusercontent.com/Marchisceddu/timonia-releases/main/icon.png",
+            "tintColor": "#0A84FF",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "buildVersion": "1",
+                    "date": "2026-10-29",
+                    "size": 25932824,
+                    "sha256": "570afa03f0f2796e81c0116511100ff86ad582bc5dcd453ce330d1e8c24c8c80",
+                    "minOSVersion": "16.0",
+                    "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.1.0/Timonia.ipa",
+                    "localizedDescription": "Rilascio versione 0.1.0 beta"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "news": []
+    ],
+    "news": []
 }
