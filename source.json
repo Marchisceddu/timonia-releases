@@ -12,6 +12,16 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "1",
+          "date": "2026-11-02",
+          "size": 30639065,
+          "sha256": "0287c2b1abad5eb57b6a6ea198223489a3e0c21030402aa48acdcd57ec93216f",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.1.2/Timonia.ipa",
+          "localizedDescription": "v0.1.2 — Redesigned modal navigation with iOS edge swipe back, refreshed offline badge, centered color picker, simplified profile avatars, and an updated email verification screen."
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "1",
           "date": "2026-11-01",
