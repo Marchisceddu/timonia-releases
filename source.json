@@ -12,16 +12,6 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
-          "version": "0.2.0",
-          "buildVersion": "1",
-          "date": "2026-11-02",
-          "size": 30639062,
-          "sha256": "64f8875bebafb22c5ed8d725fb20e8ae6352428688d1e4d43ff18319fa560700",
-          "minOSVersion": "16.0",
-          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.2.0/Timonia.ipa",
-          "localizedDescription": "# v0.2.0\n\nA new update with guest mode, better session handling, and a few quality-of-life improvements!\n\n### What's New\n- **Guest Mode:** You can now use Timonia without creating an account. Your data stays on your device, and you can sign up or log in later without losing it. When logging into an existing account, you can choose to merge or discard your local data.\n- **Better Session Handling:** If your session expires or the server logs you out, you can keep using the app with your local data and log in again whenever you're ready.\n- **Redesigned Sign-Out:** Updated sign-out confirmation with data sync before logging out.\n\n### Fixes\n- Buttons now adapt to the selected language."
-        },
-        {
           "version": "0.1.2",
           "buildVersion": "1",
           "date": "2026-11-02",
