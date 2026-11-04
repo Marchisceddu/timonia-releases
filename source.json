@@ -12,6 +12,16 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
+          "version": "0.3.0",
+          "buildVersion": "1",
+          "date": "2026-11-04",
+          "size": 30711924,
+          "sha256": "133f8a5c3baaf80c971645ba6a514ad001693c9ace3df8604655f833813fb67e",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.3.0/Timonia.ipa",
+          "localizedDescription": "# v0.3.0\nA new update featuring a redesigned transaction details experience, custom merchant naming rules, and improved auth & sync stability!\n\n### What's New\n- **Redesigned Transaction Details:** A brand new, polished details screen giving you a clearer breakdown of your expenses and updating transaction reconciliation flows.\n- **Custom Brand & Merchant Rules:** Automatically remembers how you prefer to name transactions for specific brands, with a dedicated management screen to review, edit, and customize your naming rules at any time.\n\n### Fixes & Improvements\n- **Cleaner Logout Flow:** Improved sign-out handling and state cleanup to ensure a smoother, reliable transition.\n- **Network & Sync Safeguards:** Prevented background sync requests when operating unauthenticated, avoiding unnecessary server calls and errors.\n- **Rule Alignment:** Fixed multiple UI and architectural rule violations across components and screens for a more cohesive experience."
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "1",
           "date": "2026-11-02",
