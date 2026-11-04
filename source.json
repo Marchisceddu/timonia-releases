@@ -12,6 +12,16 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "1",
+          "date": "2026-11-04",
+          "size": 30712922,
+          "sha256": "4073bbade8200539ada97f8a4f746c722d8927ec63a598dd50a375cca46558e8",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.3.1/Timonia.ipa",
+          "localizedDescription": "# v0.3.1\n\nA focused update bringing real-time awareness to your synced bank activity!\n\n### What's New\n- **Imported Bank Movement Notifications:** Get notified whenever new bank transactions are imported or synced, making it easy to stay on top of your latest movements and review them right away."
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "1",
           "date": "2026-11-04",
