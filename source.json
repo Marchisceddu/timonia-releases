@@ -12,6 +12,16 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
+          "version": "0.4.0",
+          "buildVersion": "1",
+          "date": "2026-11-08",
+          "size": 28991454,
+          "sha256": "859a71318f29b787e0a636d0e624d0d1b1e13588fa95041a902bd0d8895ef02b",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.4.0/Timonia.ipa",
+          "localizedDescription": "# v0.4.0\nA big update featuring a fully redesigned People and groups experience, a faster Home, smarter bank imports, and a safer sign-in and sync!\n\n### What's New\n- **Redesigned People & Groups:** A fresh People tab and group screens, now with the option to add members who aren't on Timonia yet, so you can split expenses with anyone.\n- **Swipe Between Cards and Ledger:** On Home, swipe to move between your cards and the full ledger.\n- **Import Review Mode:** Review freshly imported bank transactions in a dedicated mode, with a quick chip to exit when you're done.\n- **Smarter Bank Movements:** Transfers now get clearer, more meaningful titles, and already imported movements are retitled automatically. Bank accounts also show the institution name on screen.\n\n### Fixes & Improvements\n- **Safer Sessions & Sync:** Local data is now tied to your account, and syncs are safely stopped across logout, so data never mixes between accounts.\n- **Expired Session Sign-In:** A redesigned sign-in screen for expired sessions, shown as a centered identity card.\n- **Cleaner Transaction Details:** Removed the redundant expense/income label from the details header and polished the \"What is this movement?\" label.\n- **Clearer Edit Form:** The bank description and naming-rule notice are now grouped together in the transaction edit form.\n- **Reliable Bank Errors:** Stale data is cleaned up automatically, and bank errors are now handled more consistently.\n- **UI Polish:** Smoother loading dots, no more startup loading text, and the docked header no longer lets touches through to the content below."
+        },
+        {
           "version": "0.3.1",
           "buildVersion": "1",
           "date": "2026-11-04",
