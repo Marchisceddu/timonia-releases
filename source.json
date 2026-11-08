@@ -12,6 +12,16 @@
       "tintColor": "#0A84FF",
       "versions": [
         {
+          "version": "0.4.1",
+          "buildVersion": "1",
+          "date": "2026-11-08",
+          "size": 28992527,
+          "sha256": "a5833cdcfed5dd46e41e42e590a6ce3fc26632c25ce50871bdecb5a431160bd9",
+          "minOSVersion": "16.0",
+          "downloadURL": "https://github.com/Marchisceddu/timonia-releases/releases/download/v0.4.1/Timonia.ipa",
+          "localizedDescription": "# v0.4.1\nA small polish update that fixes two visual details: the note icons and the startup animation.\n\n### Fixes & Improvements\n- **Note Icons:** Icons next to notes are now vertically centered on their text, so they line up cleanly in every row.\n- **Startup Animation:** The startup symbol now expands without being clipped, and the wordmark stays whole throughout the animation."
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "1",
           "date": "2026-11-08",
